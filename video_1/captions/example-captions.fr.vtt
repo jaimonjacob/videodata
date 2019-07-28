@@ -1,0 +1,455 @@
+WEBVTT
+
+NOTE Paragraph
+
+00:00:00.752 --> 00:00:02.233
+J'aime l'infographie.
+
+00:00:02.273 --> 00:00:04.067
+En tant que concepteur multimédia,
+
+00:00:04.091 --> 00:00:05.667
+j'ai vu toutes sortes de données
+
+00:00:05.697 --> 00:00:07.277
+au cours des 25 dernières années.
+
+00:00:07.317 --> 00:00:09.038
+J'ai quelques idées à vous partager,
+
+00:00:09.075 --> 00:00:11.045
+mais d'abord : faisons un peu d'histoire.
+
+NOTE Paragraph
+
+00:00:12.773 --> 00:00:14.645
+La communication est l'encodage,
+
+00:00:14.685 --> 00:00:15.965
+la transmission
+
+00:00:16.015 --> 00:00:17.925
+et le décodage de l'information.
+
+00:00:17.975 --> 00:00:19.593
+Les avancées dans la communication
+
+00:00:19.618 --> 00:00:21.668
+marquent un tournant
+dans la culture humaine.
+
+00:00:23.334 --> 00:00:25.776
+L'oralité, l'alphabétisation 
+et la numérisation
+
+00:00:25.796 --> 00:00:27.936
+ont marqué un grand progrès 
+en communication.
+
+00:00:27.976 --> 00:00:30.447
+Ils nous permettent de changer
+des idées en mots
+
+00:00:30.531 --> 00:00:32.364
+et des quantités en nombres.
+
+00:00:33.154 --> 00:00:34.250
+Sans la communication,
+
+00:00:34.293 --> 00:00:36.323
+on serait encore bloqué à l'Âge de pierre.
+
+NOTE Paragraph
+
+00:00:37.556 --> 00:00:40.002
+Même si les humains existent
+depuis longtemps,
+
+00:00:40.006 --> 00:00:43.404
+ça ne fait que 8 000 ans que 
+l'écriture pictographique est apparue.
+
+00:00:44.703 --> 00:00:46.163
+Environ 3 000 ans plus tard,
+
+00:00:46.163 --> 00:00:49.193
+le premier système d'écriture 
+à proprement parler a pris forme.
+
+NOTE Paragraph
+
+00:00:51.498 --> 00:00:53.498
+Les cartes existent depuis des millénaires
+
+00:00:53.518 --> 00:00:55.758
+et les diagrammes 
+depuis une centaine d'années,
+
+00:00:56.168 --> 00:00:58.931
+mais représenter des quantités 
+à travers des graphiques
+
+00:00:58.955 --> 00:01:00.659
+est un progrès assez récent.
+
+00:01:01.173 --> 00:01:05.573
+Ce n'est qu'en 1786 que William Playfair 
+a inventé le premier histogramme,
+
+00:01:05.788 --> 00:01:09.476
+donnant naissance à la représentation 
+visuelle d'informations quantitatives.
+
+00:01:10.920 --> 00:01:12.084
+Quinze ans plus tard,
+
+00:01:12.109 --> 00:01:15.349
+il a introduit les graphiques 
+circulaires et en aires empilées.
+
+00:01:15.374 --> 00:01:18.345
+Ses inventions sont encore
+les plus utilisées aujourd'hui.
+
+00:01:20.575 --> 00:01:24.438
+Florence Nightingale a inventé 
+le graphique « camembert » en 1857
+
+00:01:24.518 --> 00:01:28.226
+pour une présentation donnée à la Reine 
+Victoria sur la mortalité des troupes.
+
+00:01:28.236 --> 00:01:29.058
+Surligné en bleu,
+
+00:01:29.073 --> 00:01:32.835
+elle a montré comment beaucoup 
+de morts auraient pu être évitées.
+
+00:01:35.520 --> 00:01:36.230
+Plus tard,
+
+00:01:36.260 --> 00:01:40.261
+Charles Minard a créé un graphique 
+sur la marche de Napoléon sur Moscou,
+
+00:01:40.291 --> 00:01:44.954
+illustrant comment une armée 
+de 422 000 hommes s'est réduite à 10 000
+
+00:01:45.004 --> 00:01:48.421
+à cause des batailles, de la géographie 
+et des basses températures
+
+00:01:48.445 --> 00:01:50.113
+qui ont eu de lourdes conséquences.
+
+00:01:50.133 --> 00:01:53.025
+Il a combiné un diagramme de Sankey 
+avec une cartographie
+
+00:01:53.055 --> 00:01:55.533
+et une courbe pour la température.
+
+NOTE Paragraph
+
+00:01:56.883 --> 00:01:59.925
+J'étais tout excité à l'idée de 
+jouer avec autant de données,
+
+00:01:59.945 --> 00:02:03.082
+notamment quand il y avait 
+des formes de diagrammes intéressantes.
+
+00:02:05.152 --> 00:02:07.514
+Ici, le camembert de Nightingale
+
+00:02:07.564 --> 00:02:10.319
+m'a inspiré pour organiser
+les données de milliers de
+
+00:02:10.319 --> 00:02:12.415
+subventions fédérales
+en matières d'énergie,
+
+00:02:12.415 --> 00:02:14.274
+en examinant le manque d'investissement
+
+00:02:14.274 --> 00:02:17.519
+dans les énergies renouvelables 
+contrairement aux énergies fossiles.
+
+00:02:18.455 --> 00:02:20.178
+Ce diagramme de Sankey illustre
+
+00:02:20.188 --> 00:02:22.378
+le flux énergétique 
+de l'économie américaine,
+
+00:02:22.413 --> 00:02:25.075
+soulignant que presque 
+la moitié de l'énergie utilisée
+
+00:02:25.133 --> 00:02:27.443
+représente des pertes de chaleur.
+
+NOTE Paragraph
+
+00:02:30.461 --> 00:02:33.458
+J'aime quand les données peuvent 
+être sculptées dans de belles formes.
+
+00:02:33.668 --> 00:02:36.344
+Ici, les connexions
+personnelles et professionnelles
+
+00:02:36.384 --> 00:02:37.884
+des femmes de la Silicon Valley
+
+00:02:37.914 --> 00:02:39.694
+peuvent être tissées entre elles.
+
+00:02:42.444 --> 00:02:46.396
+Même chose : la collaboration 
+des inventeurs à travers le monde
+
+00:02:46.406 --> 00:02:48.042
+peut être cartographiée.
+
+NOTE Paragraph
+
+00:02:49.272 --> 00:02:51.125
+J'ai même fait des 
+graphiques pour moi.
+
+00:02:51.173 --> 00:02:53.787
+J'aime les chiffres, donc je gagne
+rarement au Scrabble.
+
+00:02:53.877 --> 00:02:57.070
+J'ai créé ce diagramme représentant 
+tous les mots de 2 ou 3 lettres
+
+00:02:57.104 --> 00:02:59.150
+issus du dictionnaire 
+officiel du Scrabble.
+
+NOTE Paragraph
+
+00:02:59.160 --> 00:02:59.870
+(Rires)
+
+NOTE Paragraph
+
+00:02:59.910 --> 00:03:02.991
+Connaitre ces 1 168 mots 
+peut vous faire gagner.
+
+NOTE Paragraph
+
+00:03:03.011 --> 00:03:03.719
+(Rires)
+
+NOTE Paragraph
+
+00:03:04.757 --> 00:03:08.341
+Parfois, je crée des codes pour 
+générer rapidement des graphiques
+
+00:03:08.365 --> 00:03:10.504
+à partir de centaines 
+de points de données.
+
+00:03:11.614 --> 00:03:14.906
+Le codage me permet également
+de produire des graphiques interactifs.
+
+00:03:14.926 --> 00:03:18.552
+Nous pouvons maintenant présenter 
+nos informations comme nous le souhaitons.
+
+NOTE Paragraph
+
+00:03:19.962 --> 00:03:22.394
+Les graphiques aux formes
+originales ont l'air cool,
+
+00:03:22.402 --> 00:03:25.518
+mais vous pouvez n'avoir
+besoin que d'un simple point
+
+00:03:25.548 --> 00:03:27.545
+pour venir à bout
+d'une certaine réflexion.
+
+00:03:29.836 --> 00:03:33.693
+En 2006, le New York Times a repensé 
+sa section consacrée au Marché Boursier,
+
+00:03:33.713 --> 00:03:36.323
+la réduisant de huit pages
+de listes d'actions
+
+00:03:36.346 --> 00:03:38.866
+à seulement une page
+et demie de données essentielles.
+
+00:03:40.016 --> 00:03:43.583
+Nous avons listé des indicateurs 
+de performance pour les actions courantes,
+
+00:03:43.583 --> 00:03:47.392
+mais je voulais aider les investisseurs 
+à voir comment se portaient les actions.
+
+00:03:47.402 --> 00:03:49.256
+J'ai donc ajouté un simple point
+
+00:03:49.666 --> 00:03:52.506
+pour comparer le prix actuel
+avec le prix relatif sur un an.
+
+00:03:54.476 --> 00:03:57.855
+En un coup d'oeil, les investisseurs
+axés sur la valeur peuvent choisir
+
+00:03:57.855 --> 00:04:00.842
+des actions peu chères
+en cherchant les points situés à gauche.
+
+00:04:00.911 --> 00:04:04.341
+Les gros investisseurs peuvent trouver 
+des actions qui montent en flèche
+
+00:04:04.371 --> 00:04:05.952
+grâce aux points situés à droite.
+
+00:04:06.383 --> 00:04:08.995
+Peu après, le Wall Street Journal
+a copié le design.
+
+NOTE Paragraph
+
+00:04:09.863 --> 00:04:12.628
+La simplicité est le principal
+objectif des infographistes,
+
+00:04:12.658 --> 00:04:15.287
+mais parfois, nous avons 
+besoin d'inclure la complexité
+
+00:04:15.287 --> 00:04:18.146
+et de montrer une large
+collection de données.
+
+00:04:20.714 --> 00:04:23.977
+Alec Gallup, l'ancien président
+de la Gallup Organization,
+
+00:04:24.011 --> 00:04:25.583
+m'a un jour donné un gros livre.
+
+00:04:25.693 --> 00:04:27.450
+C'était un héritage de sa famille :
+
+00:04:27.474 --> 00:04:31.746
+des centaines de pages couvrant 60 ans
+de données d'approbation présidentielle.
+
+00:04:32.100 --> 00:04:35.290
+J'ai dit que je pouvais le résumer
+en un graphique d'une seule page.
+
+00:04:35.334 --> 00:04:37.008
+« Impossible », m'a-t'il répondu.
+
+00:04:39.062 --> 00:04:39.842
+Et voilà :
+
+00:04:40.006 --> 00:04:42.390
+25 000 points de données
+sur une seule page.
+
+00:04:42.650 --> 00:04:45.170
+On peut rapidement voir 
+que la plupart des présidents
+
+00:04:45.200 --> 00:04:47.340
+avaient d'abord un 
+taux élevé d’approbation,
+
+00:04:47.358 --> 00:04:48.370
+mais peu l'ont gardé.
+
+00:04:48.370 --> 00:04:50.207
+Les guerres encouragent l'approbation,
+
+00:04:50.235 --> 00:04:52.060
+les scandales déclenchent des déclins.
+
+00:04:52.980 --> 00:04:56.560
+Ces évènements majeurs sont inclus
+dans le graphique mais pas dans le livre.
+
+00:04:57.260 --> 00:05:00.855
+Le graphique peut transmettre des 
+données avec une efficacité surprenante.
+
+NOTE Paragraph
+
+00:05:04.009 --> 00:05:04.797
+Le graphisme,
+
+00:05:04.827 --> 00:05:07.486
+la capacité de lire 
+et de créer des graphiques,
+
+00:05:07.576 --> 00:05:09.151
+n'est encore que dans ses débuts.
+
+00:05:09.535 --> 00:05:11.352
+De nouveaux graphiques vont apparaitre
+
+00:05:11.352 --> 00:05:13.423
+et les dialectes spécialisés vont évoluer.
+
+00:05:13.571 --> 00:05:15.666
+Des graphiques nous
+aidant à penser plus vite
+
+00:05:15.680 --> 00:05:18.644
+ou à voir toutes les informations
+d'un livre sur une seule page
+
+00:05:18.724 --> 00:05:22.069
+sont les clés pour faire 
+de nouvelles découvertes.
+
+00:05:23.163 --> 00:05:27.074
+Notre cortex visuel a été construit 
+pour décoder des informations complexes
+
+00:05:27.098 --> 00:05:29.346
+et est un maître de la
+reconnaissance de formes.
+
+00:05:29.386 --> 00:05:32.956
+Il nous permet graphiquement d'exploiter 
+notre processeur graphique intégré
+
+00:05:32.996 --> 00:05:34.616
+pour traiter des tonnes de données
+
+00:05:34.686 --> 00:05:37.206
+et pour trouver les veines
+d'or cachées à l'intérieur.
+
+NOTE Paragraph
+
+00:05:37.266 --> 00:05:38.034
+Merci.
+
+NOTE Paragraph
+
+00:05:38.064 --> 00:05:43.834
+(Applaudissements)

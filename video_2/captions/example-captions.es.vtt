@@ -1,0 +1,552 @@
+WEBVTT
+
+NOTE Paragraph
+
+00:00:01.135 --> 00:00:03.111
+Todos somos aprendices
+
+00:00:03.111 --> 00:00:04.623
+y maestros.
+
+00:00:04.623 --> 00:00:07.079
+Aquí recibo inspiración
+
+00:00:07.079 --> 00:00:08.270
+de mi primera maestra,
+
+00:00:08.270 --> 00:00:09.215
+mi mamá,
+
+00:00:09.215 --> 00:00:11.838
+y aquí estoy enseñando
+
+00:00:11.838 --> 00:00:13.791
+Introducción a la Inteligencia Artificial
+
+00:00:13.791 --> 00:00:15.031
+a 200 estudiantes
+
+00:00:15.031 --> 00:00:16.303
+en la Universidad de Stanford.
+
+NOTE Paragraph
+
+00:00:16.303 --> 00:00:17.759
+Los estudiantes y yo
+
+00:00:17.759 --> 00:00:18.935
+disfrutamos la clase,
+
+00:00:18.935 --> 00:00:20.351
+pero se me ocurrió
+
+00:00:20.351 --> 00:00:22.062
+que mientras la asignatura
+
+00:00:22.062 --> 00:00:23.351
+es avanzada
+
+00:00:23.351 --> 00:00:24.039
+y moderna,
+
+00:00:24.039 --> 00:00:26.358
+la tecnología de enseñanza no lo es.
+
+00:00:26.358 --> 00:00:28.694
+De hecho, en esencia, uso
+
+00:00:28.694 --> 00:00:31.064
+la misma tecnología
+
+00:00:31.064 --> 00:00:33.694
+que esta aula del siglo XIV.
+
+00:00:33.694 --> 00:00:36.494
+Vean el libro de texto,
+
+00:00:36.494 --> 00:00:39.438
+el sabio en el escenario
+
+00:00:39.438 --> 00:00:41.337
+y el tipo que duerme
+
+00:00:41.337 --> 00:00:42.238
+allí atrás. (Risas)
+
+00:00:42.238 --> 00:00:45.175
+Como en la actualidad.
+
+NOTE Paragraph
+
+00:00:45.175 --> 00:00:48.286
+Por eso mi compañero,
+
+00:00:48.286 --> 00:00:49.926
+Sebastian Thrun, y yo pensamos
+
+00:00:49.926 --> 00:00:51.700
+que debe haber una mejor manera.
+
+00:00:51.700 --> 00:00:53.354
+Aceptamos el desafío
+
+00:00:53.354 --> 00:00:54.645
+de crear una clase virtual
+
+00:00:54.645 --> 00:00:56.276
+de calidad igual o mejor
+
+00:00:56.276 --> 00:00:58.612
+a las clases de Stanford,
+
+00:00:58.612 --> 00:01:00.822
+pero sería para
+
+00:01:00.822 --> 00:01:02.452
+todo el mundo y gratis.
+
+NOTE Paragraph
+
+00:01:02.452 --> 00:01:05.020
+Anunciamos la clase el 29 de julio
+
+00:01:05.020 --> 00:01:08.229
+y en dos semanas se inscribieron
+
+00:01:08.229 --> 00:01:09.636
+50 000 personas.
+
+00:01:09.636 --> 00:01:12.741
+Y pasaron a ser 160 000 estudiantes
+
+00:01:12.741 --> 00:01:14.805
+de 209 países.
+
+00:01:14.805 --> 00:01:16.613
+Estábamos encantados
+
+00:01:16.613 --> 00:01:17.734
+con esa audiencia
+
+00:01:17.734 --> 00:01:20.373
+y un poco aterrorizados porque aún
+
+00:01:20.373 --> 00:01:22.684
+no habíamos terminado de preparar la clase. (Risas)
+
+NOTE Paragraph
+
+00:01:22.684 --> 00:01:24.296
+Y nos pusimos a trabajar.
+
+00:01:24.296 --> 00:01:25.932
+Analizamos lo que hicieron otros,
+
+00:01:25.932 --> 00:01:28.255
+qué podíamos copiar y qué podíamos cambiar.
+
+00:01:28.255 --> 00:01:30.916
+Benjamin Bloom había demostrado
+
+00:01:30.916 --> 00:01:32.725
+que la enseñanza uno a uno funciona mejor
+
+00:01:32.725 --> 00:01:34.853
+y eso fue lo que tratamos de emular,
+
+00:01:34.853 --> 00:01:36.293
+como ocurrió con mi madre y yo,
+
+00:01:36.293 --> 00:01:37.798
+aunque sabíamos
+
+00:01:37.798 --> 00:01:39.716
+que sería de uno para miles.
+
+00:01:39.716 --> 00:01:41.917
+Aquí, una videocámara desde arriba
+
+00:01:41.917 --> 00:01:43.749
+me graba mientras hablo
+
+00:01:43.749 --> 00:01:45.428
+y dibujo en un papel.
+
+NOTE Paragraph
+
+00:01:45.428 --> 00:01:47.837
+Un estudiante dijo: "Esta clase parece
+
+00:01:47.837 --> 00:01:48.989
+ocurrir en un bar
+
+00:01:48.989 --> 00:01:50.468
+con un amigo muy inteligente
+
+00:01:50.468 --> 00:01:51.672
+que explica algo
+
+00:01:51.672 --> 00:01:53.973
+que no entendemos, pero estamos por entender."
+
+00:01:53.973 --> 00:01:56.089
+Y eso es exactamente lo que buscábamos.
+
+NOTE Paragraph
+
+00:01:56.089 --> 00:01:58.877
+En Khan Academy vimos
+
+00:01:58.877 --> 00:02:00.701
+que esos videos de 10 minutos
+
+00:02:00.701 --> 00:02:02.477
+funcionaban mejor que
+
+00:02:02.477 --> 00:02:04.548
+las conferencias de una hora
+
+00:02:04.548 --> 00:02:06.965
+en un formato de pantalla pequeńa.
+
+00:02:06.965 --> 00:02:09.157
+Decidimos hacerlos más breves
+
+00:02:09.157 --> 00:02:10.805
+y más interactivos.
+
+00:02:10.805 --> 00:02:13.052
+Nuestro video típico es de dos minutos,
+
+00:02:13.052 --> 00:02:14.804
+a veces más breve, nunca más
+
+00:02:14.804 --> 00:02:17.493
+de seis minutos, y luego viene una pausa
+
+00:02:17.493 --> 00:02:18.860
+para una pregunta, para que
+
+00:02:18.860 --> 00:02:20.738
+parezca una clase individual.
+
+00:02:20.738 --> 00:02:23.140
+Aquí estoy explicando cómo usa una computadora
+
+00:02:23.140 --> 00:02:24.388
+la gramática inglesa
+
+00:02:24.388 --> 00:02:26.565
+para analizar oraciones y aquí
+
+00:02:26.565 --> 00:02:28.629
+hay una pausa y los estudiantes
+
+00:02:28.629 --> 00:02:30.866
+tienen que pensar, entender lo que sucede
+
+00:02:30.866 --> 00:02:32.506
+y marcar en la casilla correcta
+
+00:02:32.506 --> 00:02:33.923
+antes de continuar.
+
+NOTE Paragraph
+
+00:02:33.923 --> 00:02:36.371
+Los estudiantes aprenden mejor
+
+00:02:36.371 --> 00:02:37.619
+si practican de forma activa.
+
+00:02:37.619 --> 00:02:39.915
+Queríamos animarles a esforzarse a resolver
+
+00:02:39.915 --> 00:02:42.883
+la ambigüedad y ayudarles a sintetizar
+
+00:02:42.883 --> 00:02:44.548
+las ideas clave por sí mismos.
+
+00:02:44.548 --> 00:02:46.260
+Por lo general evitamos preguntas
+
+00:02:46.260 --> 00:02:47.971
+del tipo: "Esta es la fórmula,
+
+00:02:47.971 --> 00:02:49.046
+dígame el valor de Y
+
+00:02:49.046 --> 00:02:50.258
+si X es igual a dos."
+
+00:02:50.258 --> 00:02:52.075
+Preferimos las preguntas abiertas.
+
+NOTE Paragraph
+
+00:02:52.075 --> 00:02:55.253
+Un estudiante escribió: "Ahora veo
+
+00:02:55.253 --> 00:02:57.115
+redes bayesianas y ejemplos
+
+00:02:57.115 --> 00:02:58.683
+de teoría de juegos por donde mire."
+
+00:02:58.683 --> 00:03:00.421
+Me gusta ese tipo de respuestas.
+
+00:03:00.421 --> 00:03:02.227
+Eso era exactamente lo que buscábamos.
+
+00:03:02.227 --> 00:03:04.421
+No queríamos que los estudiantes memorizaran las fórmulas;
+
+00:03:04.421 --> 00:03:05.611
+queríamos cambiar su manera
+
+00:03:05.611 --> 00:03:06.701
+de mirar el mundo.
+
+00:03:06.701 --> 00:03:08.027
+Y lo logramos.
+
+00:03:08.027 --> 00:03:10.427
+O, debería decir, los estudiantes lo lograron.
+
+NOTE Paragraph
+
+00:03:10.427 --> 00:03:12.346
+Y es un poco irónico
+
+00:03:12.346 --> 00:03:15.259
+que, puestos a romper con la educación tradicional,
+
+00:03:15.259 --> 00:03:17.275
+al hacerlo terminamos
+
+00:03:17.275 --> 00:03:18.859
+en clases virtuales
+
+00:03:18.859 --> 00:03:21.186
+mucho más parecidas a las tradicionales
+
+00:03:21.186 --> 00:03:23.027
+que a otras clases virtuales.
+
+00:03:23.027 --> 00:03:26.242
+En la mayoría de las clases virtuales, los videos siempre están disponibles.
+
+00:03:26.242 --> 00:03:28.059
+Uno puede verlos cuando quiere.
+
+00:03:28.059 --> 00:03:30.346
+Pero si se pueden ver cuando se quiere,
+
+00:03:30.346 --> 00:03:31.851
+se los puede dejar para mañana
+
+00:03:31.851 --> 00:03:33.259
+y si se puede dejar para mañana
+
+00:03:33.259 --> 00:03:35.421
+en fin, uno quizá nunca
+
+00:03:35.421 --> 00:03:37.179
+termine viéndolos. (Risas)
+
+NOTE Paragraph
+
+00:03:37.179 --> 00:03:39.371
+Así que volvimos a innovar
+
+00:03:39.371 --> 00:03:41.458
+y pusimos fechas de entrega. (Risas)
+
+00:03:41.458 --> 00:03:42.770
+Se podía mirar los videos
+
+00:03:42.770 --> 00:03:44.682
+en cualquier momento durante la semana
+
+00:03:44.682 --> 00:03:45.837
+pero al fin de la semana
+
+00:03:45.837 --> 00:03:47.554
+había que entregar la tarea.
+
+00:03:47.554 --> 00:03:49.467
+Esto motivó a los estudiantes a continuar
+
+00:03:49.467 --> 00:03:52.323
+y también a que todos trabajasen
+
+00:03:52.323 --> 00:03:53.841
+en la misma tarea al mismo tiempo;
+
+00:03:53.841 --> 00:03:55.338
+así que si uno iba al foro de discusión
+
+00:03:55.338 --> 00:03:58.042
+podía tener una respuesta de un compañero en minutos.
+
+00:03:58.042 --> 00:04:00.981
+Ahora les mostraré algunos de los foros; en su mayoría
+
+00:04:00.981 --> 00:04:03.747
+estaban auto-organizados por los mismos estudiantes.
+
+NOTE Paragraph
+
+00:04:03.747 --> 00:04:06.971
+De Daphne Koller y Andrew Ng aprendimos
+
+00:04:06.971 --> 00:04:08.967
+el concepto de "dar vuelta" al aula.
+
+00:04:08.967 --> 00:04:10.262
+Los estudiantes miran los videos
+
+00:04:10.262 --> 00:04:11.850
+por su cuenta y luego
+
+00:04:11.850 --> 00:04:13.560
+se reúnen para hablar de ellos.
+
+00:04:13.560 --> 00:04:16.717
+De Eric Mazur, aprendí sobre la enseñanza de pares,
+
+00:04:16.717 --> 00:04:19.341
+que los pares pueden ser los mejores profesores,
+
+00:04:19.341 --> 00:04:20.773
+porque saben
+
+00:04:20.773 --> 00:04:23.621
+cómo era eso de no entender.
+
+00:04:23.621 --> 00:04:26.302
+Sebastian y yo nos habíamos olvidado un poco de eso.
+
+00:04:26.302 --> 00:04:28.701
+Claro, no podíamos
+
+00:04:28.701 --> 00:04:30.333
+discutir en clase con
+
+00:04:30.333 --> 00:04:31.879
+decenas de miles de estudiantes,
+
+00:04:31.879 --> 00:04:35.365
+por eso alentábamos estos foros virtuales.
+
+NOTE Paragraph
+
+00:04:35.365 --> 00:04:38.413
+Y finalmente, de Teach For America,
+
+00:04:38.413 --> 00:04:39.894
+aprendí que lo principal
+
+00:04:39.894 --> 00:04:41.390
+de una clase no es la información.
+
+00:04:41.390 --> 00:04:44.221
+Más importante es la motivación y la determinación.
+
+00:04:44.221 --> 00:04:46.061
+Era fundamental que los alumnos vieran
+
+00:04:46.061 --> 00:04:47.861
+que trabajábamos mucho para ellos
+
+00:04:47.861 --> 00:04:49.270
+y que todos se ayudaran mutuamente.
+
+NOTE Paragraph
+
+00:04:49.270 --> 00:04:52.238
+El curso duró 10 semanas
+
+00:04:52.238 --> 00:04:56.149
+y al final, cerca de la mitad de los 160 000 estudiantes vieron
+
+00:04:56.149 --> 00:04:57.712
+al menos un video por semana,
+
+00:04:57.712 --> 00:05:00.405
+y más de 20 000 terminaron todas las tareas
+
+00:05:00.405 --> 00:05:02.069
+empleando de 50 a 100 horas.
+
+00:05:02.069 --> 00:05:03.622
+Obtuvieron este certificado de estudios.
+
+NOTE Paragraph
+
+00:05:03.622 --> 00:05:05.741
+¿Qué aprendimos?
+
+00:05:05.741 --> 00:05:08.557
+Bueno, probamos ideas viejas
+
+00:05:08.557 --> 00:05:10.214
+en combinación con ideas nuevas
+
+00:05:10.214 --> 00:05:12.296
+pero hay más ideas por probar.
+
+00:05:12.296 --> 00:05:14.110
+Sebastian ahora dicta otra clase.
+
+00:05:14.110 --> 00:05:15.478
+Yo dictaré una en otoño.
+
+00:05:15.478 --> 00:05:19.238
+Coursera de Stanford, Udacity, MITx
+
+00:05:19.238 --> 00:05:21.509
+y otros, preparan más clases.
+
+00:05:21.509 --> 00:05:22.997
+Es un momento apasionante.
+
+NOTE Paragraph
+
+00:05:22.997 --> 00:05:24.469
+Pero para mí, lo más apasionante
+
+00:05:24.469 --> 00:05:27.445
+son los datos que estamos recolectando.
+
+00:05:27.445 --> 00:05:30.141
+Estamos recolectando miles
+
+00:05:30.141 --> 00:05:31.797
+de interacciones por estudiante por clase;
+
+00:05:31.797 --> 00:05:34.005
+miles de millones de interacciones en total.
+
+00:05:34.005 --> 00:05:36.509
+Y ahora podemos empezar a analizarlas
+
+00:05:36.509 --> 00:05:37.973
+y cuando aprendamos de eso,
+
+00:05:37.973 --> 00:05:39.214
+cuando experimentemos,
+
+00:05:39.214 --> 00:05:41.454
+ahí ocurrirá la verdadera revolución.
+
+00:05:41.454 --> 00:05:44.230
+Y verán los resultados de una nueva generación
+
+00:05:44.230 --> 00:05:46.493
+de estudiantes increíbles.
+
+00:05:46.493 --> 00:05:48.746
+(Aplausos)
