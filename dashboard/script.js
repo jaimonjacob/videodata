@@ -56,7 +56,7 @@ xhr.addEventListener('load', function () {
         labels: xValues,
         datasets: [
           {
-            label: 'score',
+            label: 'Paused time',
             data: yValues,
             backgroundColor: '#009A44',
             borderWidth: 1,
