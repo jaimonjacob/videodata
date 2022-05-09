@@ -2,7 +2,7 @@
 
 html, body { width:70%; height:70%; } /* just to be sure these are full screen*/
 
-canvas {height: 100wW; width: 100vw; display:block; } /* To remove the scrollbars */
+canvas {height: 70wW; width: 70vw; display:block; } /* To remove the scrollbars */
 
 /* to show the canvas bounds */
 canvas {
