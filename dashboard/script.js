@@ -67,12 +67,12 @@ xhr.addEventListener('load', function () {
         ],
       },
       options: {
-       /*  title: {
-          display: false,
-          text: 'score dashboard',
+         title: {
+          display: true,
+          text: 'Where the users paused the video',
           fontColor: '#E5E2E8',
           fontSize: 25,
-        }, */
+        }, 
         legend: {
           position: 'right',
           labels: {
@@ -107,7 +107,9 @@ xhr.addEventListener('load', function () {
           ],
         },
       },
-  })
+  }
+  */
+  )
 }})
 xhr.open('GET', 'https://watershedlrs.com/api/organizations/19151/lrs/statements');
 xhr.setRequestHeader("x-experience-api-version", "1.0.3");
