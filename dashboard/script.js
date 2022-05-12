@@ -108,7 +108,6 @@ xhr.addEventListener('load', function () {
         },
       },
   }
-  */
   )
 }})
 xhr.open('GET', 'https://watershedlrs.com/api/organizations/19151/lrs/statements');
