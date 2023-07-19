@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>The 100,000-student classroom - Peter Norvig</title>
+
+	<link href="video-js-6.1.0/video-js.css" rel="stylesheet">
+    <script src="video-js-6.1.0/videojs-ie8.min.js"></script>
+    <script src="video-js-6.1.0/video.js"></script>
+    <script type="text/javascript" src="xAPIWrapper-1.10.4/src/xapiwrapper.js"></script>
+    <script type="text/javascript" src="xAPIWrapper-1.10.4/lib/cryptojs_v3.1.2.js"></script>
+    <script type="text/javascript" src="xapi-videojs.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+	<section class="container" id ="myVidsection">
+	<div class="panel panel-default">
+	<div class="panel-heading"><strong>The 100,000-student classroom - Peter Norvig</strong></div>
+	<div class="panel-body">
+  <div id="vidtitle" property="dcterms:title" content="The 100,000-student classroom - Peter Norvig"></div>
+  <div id="viddesc" property="dcterms:description" content="In the fall of 2011 Peter Norvig taught a class with Sebastian Thrun on artificial intelligence at Stanford attended by 175 students in situ -- and over 100,000 via an interactive webcast. He shares what he learned about teaching to a global classroom."></div>
+
+  <video  id="vid1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360" poster="PeterNorvig.png" data-setup="{}">
+    
+    <source src="https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2c/To_the_Brink-_JFK_and_the_Cuban_Missile_Crisis.webm/To_the_Brink-_JFK_and_the_Cuban_Missile_Crisis.webm.720p.vp9.webm" type="video/webm">
+    <!-- Tracks need an ending tag thanks to IE9 -->
+    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+  </video>
+
+   <div class="panel-footer">Please interact with the video as you usually do with any web video. The interactions will be captured as part of test data collection.</div>
+
+	</div>
+	</div>
+	</section>
+
+<script type="text/javascript">
+
+	 var url = window.location.href.split('?=');
+		var urlData = url[1];
+		var printVars = urlData.split(',');
+	    var eid = printVars[0];
+	    var name = unescape(printVars[1]);
+
+    // ADL LRS Configuration - Basic Auth for demo purposes
+    if(ADL.XAPIWrapper.lrs.auth == undefined) {
+        var conf = {
+          "endpoint": "https://watershedlrs.com/api/organizations/23244/lrs/",
+			"user" : "55a0e38b990433",
+			"password" : "18df90ce26cac8",
+			"actor" : '{"mbox": "mailto:'+eid+'","name": "'+name+'","objectType": "Agent"}'
+
+        //   "endpoint" : "https://video_profile_testing.lrs.veracity.it:443/xapi/",
+        //   "auth" : "Basic " + toBase64('700aead5daad4f619cd0d420477befd5:68438912e2b4450d8dc400698b20398f'),
+        //   "actor" : '{"mbox": "mailto:someuser@example.com","name": "Video User","objectType": "Agent"}',
+
+        };
+
+        ADL.XAPIWrapper.changeConfig(conf);
+    }
+    // put into variables - title and description from the metadata DIV above the video element
+    var activityTitle = document.getElementById('vidtitle').getAttribute('content');
+    var activityDesc = document.getElementById('viddesc').getAttribute('content');
+
+    ADL.XAPIVideoJS("vid1");
+
+
+</script>
+
+</body>
+
+</html>

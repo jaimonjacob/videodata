@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>To the Brink: JFK and the Cuban Missile Crisis</title>
+
+	<style>
+	.error{
+	display: none;
+	margin-left: 10px;
+	}
+
+	.error_show{
+		color: red;
+		margin-left: 10px;
+	}
+
+	input.invalid, textarea.invalid{
+	border: 2px solid red;
+	}
+
+	input.valid, textarea.valid{
+		border: 2px solid green;
+	}
+	</style>
+
+
+    		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<div class="container">
+	<div class="panel panel-default">
+	<div class="panel-heading">Please enter a name and email ID to access the video - <em>To the Brink: JFK and the Cuban Missile Crisis</em></div>
+	<div class="panel-body">
+
+	<form id="contact" >
+	<!-- Name -->
+	<div class="form-group">
+		<label for="contact_name">Full name:</label>
+		<input type="text" class="form-control" id="contact_name" name="name"></input>
+		<span class="error">This field is required</span>
+	</div>
+	<!-- Email -->
+	<div class="form-group">
+		<label for="contact_email">Email:</label>
+		<input type="email" class="form-control" id="contact_email" name="email"></input>
+		<span class="error">A proper email address is required, even if not real :-) </span>
+	</div>
+	<!-- Submit Button -->
+	<div id="contact_submit">
+		<button type="button" class="btn btn-primary">Submit</button>
+	</div>
+	</form>
+	</div>
+	<div class="panel-footer">The email ID need not be a corporate email ID. You can even use a non-existent email as it's used for test data collection, for example, someuser@somemail.com. The name and email ID will be captured as part of test data collection.</div>
+	</div>
+	</div>
+
+<script>
+
+$(document).ready(function(){
+	// Name can't be blank
+$('#contact_name').on('input', function() {
+	var input=$(this);
+	var is_name=input.val();
+	if(is_name){input.removeClass("invalid").addClass("valid");}
+	else{input.removeClass("valid").addClass("invalid");}
+});
+
+	// Email must be an email
+$('#contact_email').on('input', function() {
+	var input=$(this);
+	var re = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+	var is_email=re.test(input.val());
+	if(is_email){input.removeClass("invalid").addClass("valid");}
+	else{input.removeClass("valid").addClass("invalid");}
+});
+
+$("#contact_submit button").click(function(event){
+	var form_data=$("#contact").serializeArray();
+	var error_free=true;
+	for (var input in form_data){
+		var element=$("#contact_"+form_data[input]['name']);
+		var valid=element.hasClass("valid");
+		var error_element=$("span", element.parent());
+		if (!valid){error_element.removeClass("error").addClass("error_show"); error_free=false;}
+		else{error_element.removeClass("error_show").addClass("error");}
+	}
+	if (!error_free){
+		event.preventDefault();
+	}
+	else{
+		//alert('No errors: Form will be submitted');
+		var eid = $('#contact_email').val();
+        var name = $("#contact_name").val();
+		var content =("video_index.html?="+ eid+","+name);
+		window.open(content,"_self");
+	}
+});
+
+
+});
+
+</script>
+
+</body>
+
+</html>
