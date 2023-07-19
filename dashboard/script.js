@@ -110,7 +110,7 @@ xhr.addEventListener('load', function () {
   }
   )
 }})
-xhr.open('GET', 'https://watershedlrs.com/api/organizations/19151/lrs/statements');
+xhr.open('GET', 'https://watershedlrs.com/api/organizations/23244/lrs/statements');
 xhr.setRequestHeader("x-experience-api-version", "1.0.3");
-xhr.setRequestHeader("authorization", "Basic ZjczYTgxYzUzYjJmN2Q6MDE4MDBmMzRjNjdkMjc=");
+xhr.setRequestHeader("authorization", "Basic NTVhMGUzOGI5OTA0MzM6MThkZjkwY2UyNmNhYzg=");
 xhr.send(); 
